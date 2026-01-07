@@ -2,6 +2,10 @@
 
 Un sistema de mensajería moderno con interfaz de chat desarrollado con HTML y CSS puro.
 
+## Ver Demo en Vivo
+
+🌐 **[Ver Sitio en Vivo](https://g1i2s.github.io/Sistema-de-mensajer-a-/)**
+
 ## Descripción
 
 Este proyecto presenta una interfaz de usuario para un sistema de mensajería que incluye una lista de contactos, estado de usuario y área principal para iniciar conversaciones.
@@ -41,12 +45,9 @@ sistema-de-mensajeria/
 
 3. Explora la interfaz del sistema de mensajería
 
-## Visualización en Vivo
+## Instalación Local
 
-Puedes ver el proyecto en vivo activando GitHub Pages:
-1. Ve a Settings > Pages en este repositorio
-2. Selecciona la rama `main` como fuente
-3. Guarda los cambios
+Si prefieres ejecutar el proyecto localmente:
 
 ## Contactos Incluidos
 
