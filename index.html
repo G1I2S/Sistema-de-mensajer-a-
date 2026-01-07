@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Mensajería</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      display: flex;
+      height: 100vh;
+      background-color: #001f3f;
+    }
+
+
+    .container {
+      display: flex;
+      flex: 1;
+    }
+
+
+    .contacts {
+      flex: 0 0 25%;
+      border-right: 1px solid #ccc;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      color: white;
+    }
+
+    .user-status {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .user-status img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 0.5rem;
+    }
+
+
+    .new-chat {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem 0;
+    }
+
+    .new-chat button {
+      padding: 0.5rem 1rem;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+
+    .contact-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      flex: 1;
+      overflow-y: auto;
+    }
+
+    .contact {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .contact img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-info span:first-child {
+      font-weight: bold;
+    }
+
+
+    .main {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .main h2 {
+      margin-bottom: 1rem;
+      color: white;
+    }
+
+    .main p {
+      max-width: 400px;
+      line-height: 1.5;
+      color: white;
+    }
+
+    .main img {
+      width: 200px;
+      height: 200px;
+      margin-bottom: 2rem;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="contacts">
+
+      <div class="user-status">
+        <div style="display:flex; align-items:center;">
+          <img src="https://randomuser.me/api/portraits/women/10.jpg" alt="Maria">
+          <span>Maria</span>
+        </div>
+        <span>Activa ahora</span>
+      </div>
+
+
+      <div class="new-chat">
+        <button>Nuevo Chat</button>
+      </div>
+
+
+      <div class="contact-list">
+        <div class="contact">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Juanita">
+          <div class="contact-info">
+            <span>Juanita</span>
+            <span>At vero eos et accusa</span>
+          </div>
+        </div>
+        <div class="contact">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Alberto">
+          <div class="contact-info">
+            <span>Alberto</span>
+            <span>Blanditiis praesentium</span>
+          </div>
+        </div>
+        <div class="contact">
+          <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Ignacio">
+          <div class="contact-info">
+            <span>Ignacio</span>
+            <span>Officiis debitis aut</span>
+          </div>
+        </div>
+        <div class="contact">
+          <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="Cristian">
+          <div class="contact-info">
+            <span>Cristian</span>
+            <span>Nam libero tempore</span>
+          </div>
+        </div>
+        <div class="contact">
+          <img src="https://randomuser.me/api/portraits/women/21.jpg" alt="María José">
+          <div class="contact-info">
+            <span>María José</span>
+            <span>Impedit quo minus id</span>
+          </div>
+        </div>
+        <div class="contact">
+          <img src="https://randomuser.me/api/portraits/men/50.jpg" alt="Gonzalo">
+          <div class="contact-info">
+            <span>Gonzalo</span>
+            <span>At vero eos et accusa</span>
+          </div>
+        </div>
+        <div class="contact">
+          <img src="https://randomuser.me/api/portraits/men/77.jpg" alt="Juan Pablo">
+          <div class="contact-info">
+            <span>Juan Pablo</span>
+            <span>Necessitatibus saepe</span>
+          </div>
+        </div>
+        <div class="contact">
+          <img src="https://randomuser.me/api/portraits/women/36.jpg" alt="Magdalena">
+          <div class="contact-info">
+            <span>Magdalena</span>
+            <span>Ut et voluptates</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="main">
+      <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400" alt="Networking">
+      <h2>Comienza el Networking</h2>
+      <p>Presiona el botón "Nuevo chat" para comenzar a crear nuevas redes de contacto para tu empresa o emprendimiento.</p>
+    </div>
+  </div>
+</body>
+</html>
